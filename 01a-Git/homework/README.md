@@ -51,7 +51,7 @@ Iniciaremos creando una carpeta desde la consola llamada: "CarpetaHenry"
 Para ello primero iremos a la carpeta de nivel superior, escribe en la consola:
 
 ```bash
-  cd ~
+ −
 ```
 
 y presiona Enter. Una vez estés en el nivel superior, escribe:
@@ -85,12 +85,13 @@ Para poder trabajar en un proyecto debes clonarlo (descargarlo) a tu máquina lo
 Una vez tengas la dirección copiada, abre una terminal nueva y escribe lo siguiente:
 
 
-```bash
-  $ cd ~
+```bashre
+$ c
 
   $ cd CarpetaHenry
 
   $ git clone [dirección copiada]
+  $ git clone [dirección copiada]reposi
 ```
 
 Esto descargará el repositorio y tendrás disponible una copia local guardada en tu máquina.
@@ -108,7 +109,7 @@ A continuación, escribe lo siguiente en tu terminal:
   
   $ touch archivo-ejemplo.js
 ```
-
+CD 
 Esto añadirá un nuevo archivo llamado "archivo-ejemplo.js" a tu proyecto.
 
 En este momento, podemos usar el comando de git "status", esto nos mostrará los cambios hechos en el repositorio local. Usa "status" si no estás seguro de que algo haya funcionado y necesitas saber qué pasó.
